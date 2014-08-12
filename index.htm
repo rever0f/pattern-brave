@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Typing Tutor Input</title>
+    <script src="./type.js" type="text/javascript"></script>
+    <link href="./type.css" rel="stylesheet" type="text/css" />
+    <link href="./sideb.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="ftest" name="ftest">
+      <div id="nwftest" name="nwftest">
+        <input onclick="nwtest()" type="submit" value="New Test" />
+      </div>
+      <div id="stmarq" name="stmarq">
+        <input id="stbtest" onclick="sttest()" type="submit" value="Start" /><span id="txtmarq"></span>
+      </div>
+      <input id="tstentry" name="tstentry" onkeypress="nextchar()" type="text" />
+      <div id="tstdata" name="tstdata">
+        <span id="wpm" name="wpm"></span><span class="right" for="cnt"><Times>Taken:</Times>&nbsp;&nbsp;<span id="cnt" name="cnt"></span></span>
+        <div id="accu" name="accu"></div>
+        <div id="mis" name="mis"></div>
+      </div>
+      <input id="sttime" name="sttime" type="hidden" />
+    </div>
+    <div id="dtext" name="dtext">
+      <input id="tsttext" name="tsttext" type="text" /><input id="crtest" name="crtest" onclick="mktest()" type="submit" value="Create Test" />
+    </div>
+    <script type="text/javascript">
+      root();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+body {margin-right: auto; margin-left: auto; text-align: center; background: #000000 url(angeldisentegratedark.jpg) no-repeat fixed top center}
+body img{border-width: 0}
+
+#ftest {display: none}
+/*#dtext {margin-right: auto; margin-left: auto}*/
+#tsttext {width: 70%}
+#tstentry {width: 80%}
+#stmarq , #tstdata {text-align: left; opacity: 0.75; filter: alpha(opacity=75)}
+#stmarq {width: 80%; overflow: hidden; height: 25}
+#tstdata {width: 40%; display: none}
+#txtmarq, #tstdata{color: #00bbdd; background-color: #001111; font-size: 20}
+#big {font-size: 30; font-weight: 900} 
+.right {right: 30%; text-align: right; position: absolute}
+#abex{display:none}
+#t1, #t2, #t3, #t4, #b1, #b2, #b3, #b4, .insdbr, #abty{font-size: 20; background-color: #001111; opacity: 0.75; filter: alpha(opacity=75)}
+
+.absdbr, fabsdbr{height: 20, width: 86}
+.absdbr a:hover, .fabsdbr a:hover{height: 140}
